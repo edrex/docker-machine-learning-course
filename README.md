@@ -29,8 +29,7 @@ docker build -t machine-learning .
 ## Run
 
 ```
-docker run -it -p 8888:8888 -v $PWD/notebooks:/notebooks ml
-docker run -t -p 8888:8888 -v $PWD/notebooks:/notebooks -i machine-learning
+docker run -it -p 8888:8888 -v $PWD/notebooks:/notebooks machine-learning
 ```
 
 - Access the notebook from your browser
